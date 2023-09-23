@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #faf9f8;
+  list-style: none;
+}
+
+.container .heading h2 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Mooli", sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.container .heading {
+  margin-top: 50px;
+  letter-spacing: 10px;
+}
+.msg {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Questrial", sans-serif;
+  margin-top: 25px;
+  letter-spacing: 2px;
+  border-bottom: 2px solid black;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.part_2 {
+  margin-top: 8px;
+  margin-bottom: 25px;
+}
+
+/* form starts */
+
+.form {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 65px 55px;
+  font-family: "Monsterat", sans-serif;
+}
+
+.questions {
+  border-right: 2px solid black;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+
+.choice ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.choice ul li {
+  padding: 0px 20px;
+}
+
+.tick {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0px;
+}
+#product {
+}
+
+input[type="radio"] {
+  border: 0px;
+  outline: none;
+  height: 100%;
+  width: 2rem;
+}
+
+.body {
+  /* overflow: scroll; */
+}
+
+.questions ul li {
+  margin: 15px 0px;
+}
+/* form end*/
+
+@media only screen and (max-width: 500px) {
+  .container .heading h2 {
+    font-size: 20px;
+  }
+
+  .msg {
+    font-size: 15px;
+  }
+
+  .part_2 {
+    margin-top: 0px;
+  }
+
+  .form {
+    font-size: 8px;
+    margin: 65px 0px;
+    justify-content: space-evenly;
+  }
+
+  .tick {
+    justify-content: space-around;
+    margin: 12px 0px;
+  }
+
+  .choice ul {
+    justify-content: center;
+  }
+
+  .choice ul li {
+    padding: 0px 10px;
+  }
+
+  .tick input {
+    padding: 0px 10px;
+  }
+
+  .questions {
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-left: 3px;
+  }
+
+  .questions ul li {
+    margin: 15px 0px;
+  }
+}
+
+@media only screen and (max-width: 880px) and (min-width: 499px) {
+  .container .heading h2 {
+    font-size: 30px;
+  }
+
+  .msg {
+    font-size: 20px;
+  }
+
+  .part_2 {
+    margin-top: 2px;
+  }
+}
